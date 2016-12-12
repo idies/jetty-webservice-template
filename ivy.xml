@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+  <info organisation="IDIES" module="jetty-webservice"/>
+  <configurations>
+    <conf name="compile"/>
+  </configurations>
+  <dependencies>
+    <dependency org="org.apache.logging.log4j" name="log4j-api" rev="2.5" conf="compile->default" />
+    <dependency org="org.apache.logging.log4j" name="log4j-core" rev="2.5" conf="compile->default" />
+    <dependency org="org.eclipse.jetty" name="jetty-webapp" rev="9.4.0.v20161208" conf="compile->default"/>
+    <dependency org="org.springframework" name="spring-core" rev="4.2.6.RELEASE" conf="compile->default"/>
+    <dependency org="org.springframework" name="spring-webmvc" rev="4.2.6.RELEASE" conf="compile->default"/>
+    <dependency org="org.springframework" name="spring-web" rev="4.2.6.RELEASE" conf="compile->default"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-core" rev="2.7.4" conf="compile->default"/>
+    <dependency org="com.fasterxml.jackson.core" name="jackson-databind" rev="2.7.4" conf="compile->default"/>
+  </dependencies>
+</ivy-module>
