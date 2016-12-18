@@ -5,6 +5,9 @@
     <property name="lib.home" value="${basedir}/lib"/>
     <property name="src.home" value="${basedir}/src"/>
 
+    <!-- Debug flag is required!!! -->
+    <property name="compile.debug" value="true"/>
+    
     <path id="compile.classpath">
         <fileset dir="${lib.home}">
             <include name="*.jar" />
